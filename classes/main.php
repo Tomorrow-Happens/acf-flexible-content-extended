@@ -152,7 +152,7 @@ class Main {
 		 *
 		 * @return array
 		 */
-		$path = apply_filters( 'acf-flexible-content-extended.images_path', 'lib/admin/images/acf-flexible-content-extended' );
+		$path = apply_filters( 'acf-flexible-content-extended.images_path', 'src/images/acf-flexible-content-extended' );
 
 		// Rework the tpl
 		$layout = str_replace( '_', '-', $layout );
